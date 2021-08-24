@@ -1,0 +1,120 @@
+
+header{
+    display: grid;
+    grid-template: 58px / auto 52%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 98%;
+    z-index: 999;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(200, 200, 200);
+}
+
+.app-links {
+    justify-self: end;
+}
+
+.app-links-2 {
+    justify-self: end;
+    margin: 0 30px 0 0;
+}
+
+.ini{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: orangered;
+}
+
+.ini:hover,
+.ini:active {
+    transition: all 0.8s ease-out;
+    background-color: #f8f8f8;
+}
+
+.reg {
+    background-color: orangered;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.reg:hover,
+.reg:active {
+    transition: all 0.8s ease-out;
+    background-color: rgb(255, 114, 62);
+}
+
+
+.brand-name {
+    display: inline-flex;
+    margin: 0 10px 0 0;
+    width: 100%;
+}
+
+.menu__logo {
+    display: block;
+    margin: 0 0 0 12px;
+    float: left;
+}
+
+.brand-name a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.search-box-h {
+    width: 70%;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: rgb(249, 249, 249);
+}
+
+.drawer-toggle .bar {
+    width: 75%;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+}
+
+.drawer-toggle {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    width: 35px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+.toggles{
+    display: inline-flex;
+    justify-self: end;
+    height: 100%;
+    width: 100px;
+    align-items: center;
+}
+
+.box-button-search{
+    display: inline-flex;
+    padding-right: 16px;
+}
+
+.button-search{
+    border: none;
+    border-radius: 100%;
+    padding: 6px;
+    cursor: pointer;
+    background-color: orangered;
+}
